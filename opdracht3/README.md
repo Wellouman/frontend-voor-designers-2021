@@ -1,6 +1,7 @@
 # Filmsite
 Een filmsite waarbij een gebruiker films kan zoeken. Deze films kunnen vervolgens aan de kijklijst worden toegevoegd en verwijderd. Zo kan een gebruiker films aangeven die hij/zij graag wilt zien in de toekomst.
-Link: [link]
+
+[Link naar de opdracht](https://wellouman.github.io/opdracht3/)
 <br>
 <br>
 
