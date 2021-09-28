@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<title>Films | Filmsite (2020)</title>
+</head>
+
+
+<body>
+
+
+
+
+	<nav>
+		<ul>
+			<li><a href="/" class="logo"><i class="fas fa-film"></i>Films</a></li>
+			<li><a href="index.html">Films</a></li>
+			<li><a href="series.html">Series</a></li>
+			<li><a href="mijnLijst.html">Mijn lijst</a></li>
+			<div class="account">
+				<li><a href="#account"><i class="far fa-user-circle"></i>Jesse Welleman</a></li>
+			</div>
+		</ul>
+	</nav>
+
+
+
+	<main>
+		<span>Gebruik het zoekfeld om een film te zoeken...</span>
+		<input type="text" class="searchKeyword" placeholder="Trefwoord...">
+		<button class="searchButton">
+			<i class="fas fa-search"></i>
+		</button>
+
+		<div class="topFilmsContainer">
+			<!-- Content gevuld vanuit Json -->
+		</div>
+	</main> 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/movie.js"></script>
+	<script src="js/storage.js"></script>
+
+</body>
+
+
+
+</html>
