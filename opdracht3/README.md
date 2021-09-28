@@ -2,13 +2,15 @@
 Een filmsite waarbij een gebruiker films kan zoeken. Deze films kunnen vervolgens aan de kijklijst worden toegevoegd en verwijderd. Zo kan een gebruiker films aangeven die hij/zij graag wilt zien in de toekomst.
 
 [Link naar de opdracht](https://wellouman.github.io/opdracht3/)
-<br>
-<br>
+
+
+![website screenshot](https://github.com/Wellouman/frontend-voor-designers-2021/blob/main/opdracht3/website-ss.jpg)
+
 
 ## Interface
 
 Een aantal states van de UI stack worden opgevangen en zijn vormgegeven.
-<br>
+
 De volgende States van de UI stack worden opgevangen:
 
 - Ideal state - In de Ideal state worden een aantal films laten zien die de website te bieden heeft zodat de gebruiker weet waar hij zich bevind.
