@@ -22,34 +22,27 @@ De volgende States van de UI stack worden opgevangen:
 
 In de demo maak je gebruik van meerdere UI events zodat gebruikers je ontwerp op verschillende manieren kunnen bedienen.
 
-- UI event 1 - search bar
-<br>
+- UI event 1 - search bar<br>
 De search bar zit linksboven in het scherm op de homepagina. Wanneer een gebruiker hierop klikt moet hij/zij meer dan 1 character invullen om resultaten te laten zien. Wanneer er teveel resultaten zijn om te laden wordt er een error message gegeven. De gebruiker zal gerichter moeten zoeken.
 
-- UI event 2 - Toevoegen aan kijklijst
-<br>
+- UI event 2 - Toevoegen aan kijklijst<br>
 Wanneer een gebruiker naar de detailpagina van een film/serie gaat heeft hij/zij de mogelijkheid om deze toe te voegen aan de kijklijst met een button. De gebruiker krijgt feedback dat de film is toegevoegd. De film is bij deze toegevoegd aan de kijklijst pagina. De button veranderd ook naar een vinkje.
 
-- UI event 3 - Verwijderen van kijklijst
-<br>
+- UI event 3 - Verwijderen van kijklijst<br>
 Binnen de kijklijst staan al de toegevoegde films/series. Deze kunnen ook weer verwijderd worden door naar de detailpagina te gaan en opnieuw op de knop te klikken met het vinkje waardoor de film wordt verwijderd van de kijklijst.
 
 In de demo dien je rekening te houden met de interface design principles 04, 08, 09 & 11 van Principles of User Interface Design.
 
-- 04 Keep users in control
-<br>
+- 04 Keep users in control<br>
 De gebruiker heeft de mogelijkheid om zelf opzoek te gaan naar verschillende films die hij zij wilt bekijken. Een gebruiker heeft daarbij de optie om deze film aan zijn eigen filmlijst toe te voegen of te verwijderen, met duidelijke feedback dat deze handeling is uitgevoerd.
 
-- 08 Provide a natural next step
-<br>
+- 08 Provide a natural next step<br>
 Na de zoekfunctie gebruikt te hebben worden de resultaten getoond. Op het moment dat een gebruiker klikt op een film/serie komt de volgende stap; de detailpagina met informatie en optie om toe te voegen aan je kijklijst.
 
-- 09 Appearance follows behavior
-<br>
+- 09 Appearance follows behavior<br>
 Uiteraard heb ik ervoor gezorgd dat de user interface eruit ziet zoals bekend bij gebruikers. Een zoekbalk lijkt op een zoekbalk en de button om toe te voegen aan je kijklijst is empowered met een icon zodat het meteen duidelijk is wat een gebruiker doet met deze knop.
 
-- 11 Strong visual hierarchies work best
-<br>
+- 11 Strong visual hierarchies work best<br>
 De visuele hiërarchie die ik bijna voor alle projecten gebruik is Left to right. Op dezelfde manier als dat je een boek leest horen gebruikers ook mijn website te bekijken en te lezen. Alle elementen beginnen links ( Navigatie, films, tekstuele elementen), en er wordt gebruik onderscheid gemaakt van betiteling, ondertitels en alinea’s door middel van font grootte en gewicht.
 <br>
 <br>
