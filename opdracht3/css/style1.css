@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: roboto, sans-serif;
+}
+
+body {
+
+	background-color: #191A1A;
+}
+
+h2 {
+	color: white;
+	font-size: 1.25em;
+	font-weight: 500;
+	margin: 30px 20px 30px 70px;
+}
+
+img:hover {
+	border: 1px solid #85BBD0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 27px 16px;
+	text-decoration: none;
+}
+
+.account {
+	float: right;
+}
+
+.fas.fa-film {
+	color: #85BBD0;
+
+}
+
+li a:hover {
+	color: #85BBD0;
+}
+
+.logo {
+	color: #85BBD0;
+	font-family: copperplate;
+	font-size: 2.5em;
+	padding: 14px 16px;
+	 /* !important */
+}
+
+topFilmsContainer a {
+	max-width: 45%;
+	max-height: 300px;
+}
+
+
+.topfilms {
+	max-width: 100%;
+	max-height: 300px;
+}
+
+.films {
+	width: 20%;
+	max-height: 350px;
+	margin: 10px;
+}
+
+.far.fa-user-circle {
+	color: #85BBD0;
+	font-size: 1.25em;
+	padding-right: 5px
+}
+
+.topFilmsContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.filmsContainer {
+	display: flex;
+	justify-content: space-around
+}
+
+.topFilmsContainer1 a {
+	padding: 2em;
+	
+}
+
+.topFilmsContainer1 h2 {
+	padding: 1.75em;
+	margin: 0 !important;
+	font-weight: 400;
+}
+
+h1 {
+	color: white;
+	padding: 1em;
+	font-weight: 500;
+}
+
+span {
+	font-size: 1.125em;
+	color: white;
+	margin: 0 1em;
+	display: inline-block;
+}
+
+.searchKeyword {
+	margin: 1em 0;
+	height: 30px;
+	padding: 0.5em;
+	font-family: roboto, sans-serif;
+	font-size: 1.125em;
+}
+
+.searchButton {
+	height: 51px;
+	width: 51px;
+	margin: 1em 0;
+	border: 0;
+	background-color: white;
+	font-size: 1.125em;
+	cursor: pointer;
+}

@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: roboto, sans-serif;
+}
+
+body {
+	background-color: #191A1A;
+}
+
+main {
+	margin-left: 5em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 27px 16px;
+	text-decoration: none;
+}
+
+.account {
+	float: right;
+}
+
+.fas.fa-film {
+	color: #85BBD0;
+
+}
+
+li a:hover {
+	color: #85BBD0;
+}
+
+.logo {
+	color: #85BBD0;
+	font-family: copperplate;
+	font-size: 2.5em;
+	padding: 14px 16px;
+	 /* !important */
+}
+
+h1 {
+	color: white;
+	font-size: 2.5em;
+	font-weight: 400;
+	margin: 1em 1em 0em 0em
+}
+
+h2 {
+	color: white;
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-top: 0.3em;
+}
+
+h3 {
+	color: white;
+	font-size: 0.875em;
+	font-weight: 400;
+	margin-top: 0.3em;
+}
+
+p {
+	color: white;
+	font-size: 1em;
+	font-weight: 400;
+	max-width: 40em;
+	margin-top: 0.3em;
+}
+
+button {
+	width: 8em;
+	height: 4em;
+	background-color: #85BBD0;
+	border-radius: 12px;
+	border: none;
+	margin: 3em 1px 1px 8em;
+	
+}
+
+.fas.fa-play, .fas.fa-plus {
+	color: white;
+	font-size: 1.5em;
+}
+
+  @keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+	}
+	
+	@keyframes fadeOut {
+		from {opacity: 1;}
+		to {opacity: 0;}
+		}
+  
+.fas.fa-check {
+	color: white;
+	font-size: 1.5em;
+	animation: fadeIn 1.5s;
+}
+
+#toevoegen {
+	margin-left: 3em !important;
+}
+
+button:hover {
+	background-color: #4C6B76;
+}
+
+button:focus {
+	outline: 0;
+}
+
+.far.fa-user-circle {
+	color: #85BBD0;
+	font-size: 1.25em;
+	padding-right: 5px
+}
+
+#pop-up {
+	display: none;
+	float: right;
+	font-size: 1em;
+	color: #ffffff;
+	background-color: rgba(133,187,208,0.68);
+	width: 35%;
+	text-align: center;
+	margin-right: 1.875em;
+	height: 6.25em;
+	line-height: 6.25em;
+	border-radius: 0.75em;
+	position: absolute;
+	right: -1000px;
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
